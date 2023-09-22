@@ -7,7 +7,7 @@ from django.db.models import Q
 from cart.views import _cart_id
 from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 from django.http import HttpResponse
-# from .forms import ReviewForm
+from .forms import ReviewForm
 from django.contrib import messages
 from orders.models import OrderProduct
 
